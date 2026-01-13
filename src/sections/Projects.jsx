@@ -3,10 +3,10 @@ import { motion } from "framer-motion";
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 import img1 from "../assets/img1.png";
 import img2 from "../assets/img2.PNG";
-import img3 from "../assets/img3.jpg";
-import img4 from "../assets/img4.jpg";
-import img5 from "../assets/img5.jpg";
-import img6 from "../assets/img6.jpg";
+import img3 from "../assets/img3.JPG";
+import img4 from "../assets/img4.JPG";
+import img5 from "../assets/img5.JPG";
+import img6 from "../assets/img6.JPG";
 
 const glows = [
   "-top-10 -left-10 w-72 h-72 opacity-20 blur-[80px]",
