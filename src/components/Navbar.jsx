@@ -2,6 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import OverlayMenu from "./OverlayMenu";
 import { FiMenu } from "react-icons/fi";
 
+
 export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [visible, setVisible] = useState(true);
@@ -73,7 +74,7 @@ export default function Navbar() {
       >
         <div className="flex items-center space-x-2">
           {/* Fixed logo path for Vercel */}
-          <img src="/logo.png" alt="Logo" className="w-8 h-8 object-contain" />
+          <img src="/src/assets/logo.png" alt="Logo" className="w-8 h-8 object-contain" />
           <div className="text-2xl font-bold text-white hidden sm:block">
             Heshan
           </div>
