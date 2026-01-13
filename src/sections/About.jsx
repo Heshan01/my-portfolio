@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import React from "react";
-import profilePic from "../assets/p.jpg"; // <-- Updated to match your actual file name
+import profilePic from "../assets/p.jpg"; // ensure this file exists
 
 export default function About() {
   const stats = [
@@ -11,9 +11,9 @@ export default function About() {
   ];
 
   const glows = [
-    "-top-10 -left-10 w-72 h-72 opacity-20 blur-[80px]",       // top-left
-    "bottom-0 right-10 w-96 h-96 opacity-15 blur-[100px]",      // bottom-right
-    "top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-64 h-64 opacity-10 blur-[70px]", // center
+    "-top-10 -left-10 w-72 h-72 opacity-20 blur-[80px]",
+    "bottom-0 right-10 w-96 h-96 opacity-15 blur-[100px]",
+    "top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-64 h-64 opacity-10 blur-[70px]",
   ];
 
   return (
@@ -66,7 +66,7 @@ export default function About() {
               I'm Heshan Dilhara, a passionate Full Stack Developer with expertise in building dynamic and responsive web applications. With a strong foundation in both front-end and back-end technologies, I thrive on creating seamless user experiences and efficient server-side solutions. Let's connect and build something amazing together!
             </p>
 
-            {/* Stats in a Single Line */}
+            {/* Stats */}
             <div className="mt-6 flex flex-wrap justify-center md:justify-start gap-4">
               {stats.map((item, i) => (
                 <motion.div
