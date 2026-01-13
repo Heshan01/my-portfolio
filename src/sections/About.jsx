@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import React from "react";
-import profilePic from '../assets/p.jpg';
+import profilePic from "../assets/p.jpg"; // <-- Updated to match your actual file name
 
 export default function About() {
   const stats = [
@@ -46,7 +46,11 @@ export default function About() {
             whileHover={{ scale: 1.02 }}
             transition={{ type: "spring", stiffness: 300, damping: 20 }}
           >
-            <img src={profilePic} alt="profile" className="w-full h-full object-cover" />
+            <img
+              src={profilePic}
+              alt="profile"
+              className="w-full h-full object-cover"
+            />
           </motion.div>
 
           {/* Text Content */}
