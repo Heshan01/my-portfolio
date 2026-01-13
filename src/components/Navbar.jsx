@@ -72,8 +72,8 @@ export default function Navbar() {
         }`}
       >
         <div className="flex items-center space-x-2">
-          {/* Changed import to public folder */}
-          <img src="../public/logo.png" alt="Logo" className="w-8 h-8 object-contain" />
+          {/* Fixed logo path for Vercel */}
+          <img src="/logo.png" alt="Logo" className="w-8 h-8 object-contain" />
           <div className="text-2xl font-bold text-white hidden sm:block">
             Heshan
           </div>
